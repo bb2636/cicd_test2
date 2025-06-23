@@ -1,0 +1,14 @@
+name: github actions 자동 배포
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  My-Auto-CICD-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: test
+        run: echo "test"
+
