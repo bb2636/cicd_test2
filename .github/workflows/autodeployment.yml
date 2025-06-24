@@ -23,7 +23,7 @@ jobs:
           mkdir src/main/resources || true
           echo "${{ secrets.APPLICATION_YML }}" > ./src/main/resources/application.yml
           ls -al ./src/main/resources
-          cat ./src/main/resourcesapplication.yml
+          cat ./src/main/resources/application.yml
 #  deploy-job:
 #    runs-on: ubuntu-latest
 
