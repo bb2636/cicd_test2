@@ -6,12 +6,6 @@ on:
       - master
 
 jobs:
-  My-Auto-CICD-job:
-    runs-on: ubuntu-latest
-    steps:
-      - name: test
-        run: echo "test"
-
   autodeploy-job:
     runs-on: ubuntu-latest
     steps:
